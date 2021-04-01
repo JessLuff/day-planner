@@ -21,13 +21,12 @@ if (hour<9){
     text9.attr('class', "bg-secondary text-white");
 }
 
-// 
+// Responds to click of save button
 function button9(event) {
     event.preventDefault();
     var todo9 = $('input[name="todo9"]').val();
     localStorage.setItem('todo9', todo9);
 }
-
 slot9.on('submit', button9);
 
 var slot10 = $('#slot10');
