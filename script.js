@@ -2,6 +2,7 @@
 var today = moment();
 // Current hour of the day in 24 hr time
 var hour = today.format('H');
+console.log(hour);
 
 $("#currentDay").text(today.format('dddd, Do [of] MMMM YYYY'));
 
@@ -12,7 +13,7 @@ text9.attr('value', localStorage.getItem('todo9'));
 // Changes colour based on current hour
 if (hour<9){
     slot9.attr('class', "bg-success text-white");
-    textt9.attr('class', "bg-success text-white");
+    text9.attr('class', "bg-success text-white");
 } else if (hour==9){
     slot9.attr('class', "bg-danger text-white");
     text9.attr('class', "bg-danger text-white");
