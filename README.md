@@ -9,7 +9,7 @@ When the user clicks the save button after entering an event, the details are sa
 Therefore even if the page is refreshed, the information is maintained.
 The current time block will be red, past time blocks grey and future time blocks green.
 
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot.png)
 
 Creator: JessLuff
 Email: jessica.luff@outlook.com
