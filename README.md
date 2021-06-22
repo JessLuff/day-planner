@@ -11,6 +11,8 @@ The current time block will be red, past time blocks grey and future time blocks
 
 ![Screenshot](Screenshot.png)
 
+License: MIT
+
 Creator: JessLuff
 Email: jessica.luff@outlook.com
 [Github](https://github.com/JessLuff)
